@@ -1,0 +1,28 @@
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+backend.venv/
+*.sqlite3
+backend/db.sqlite3
+backend/staticfiles/
+backend/staticfiles_build/
+
+# Node / Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Vercel local project metadata
+.vercel/
+backend/.vercel/
+frontend/.vercel/
